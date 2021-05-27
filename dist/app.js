@@ -35,6 +35,7 @@ class ProjectInput {
         this.descriptionInputElement = this.element.querySelector('#description');
         //This represents the people input
         this.peopleInputElement = this.element.querySelector('#people');
+        this.configure();
     }
     handleSubmit(event) {
         event.preventDefault();

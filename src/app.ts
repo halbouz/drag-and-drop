@@ -42,10 +42,11 @@ class ProjectInput {
 
         //This represents the people input
         this.peopleInputElement = this.element.querySelector('#people') as HTMLInputElement;
-
+        
+        this.configure();
     }
 
-    
+
     @AutoBind
     private handleSubmit(event: Event) {
         event.preventDefault();
