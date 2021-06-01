@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "webpack serve",
+    "build": "webpack --config webpack.config.prod.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,12 @@
   },
   "homepage": "https://github.com/halbouz/project-list-manager#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "lite-server": "^2.6.1",
+    "ts-loader": "^9.2.2",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }

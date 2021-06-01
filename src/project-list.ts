@@ -1,9 +1,9 @@
-import { Component } from "./component.js";
-import { AutoBind } from "./helper-functions.js";
-import { projectState } from "./project-state.js";
-import { Project, ProjectStatus } from "./project.js";
-import { ProjectItem } from "./project-item.js";
-import { DragTarget } from "./interfaces.js";
+import { Component } from "./component";
+import { AutoBind } from "./helper-functions";
+import { projectState } from "./project-state";
+import { Project, ProjectStatus } from "./project";
+import { ProjectItem } from "./project-item";
+import { DragTarget } from "./interfaces";
 
 //This represents the project lists
 export class ProjectList

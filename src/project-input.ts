@@ -1,6 +1,6 @@
-import { Component } from './component.js';
-import { validateString, AutoBind } from './helper-functions.js'
-import { projectState } from './project-state.js'
+import { Component } from './component';
+import { validateString, AutoBind } from './helper-functions'
+import { projectState } from './project-state'
 
 //This represents the input form
 export class ProjectInput extends Component<HTMLDivElement, HTMLFormElement> {

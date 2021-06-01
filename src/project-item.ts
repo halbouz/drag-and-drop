@@ -1,7 +1,7 @@
-import { Component } from "./component.js";
-import { Project } from "./project.js";
-import { AutoBind } from "./helper-functions.js";
-import { Draggable } from "./interfaces.js";
+import { Component } from "./component";
+import { Project } from "./project";
+import { AutoBind } from "./helper-functions";
+import { Draggable } from "./interfaces";
 
 // This represents a project item
 export class ProjectItem
